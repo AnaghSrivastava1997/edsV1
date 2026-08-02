@@ -226,13 +226,13 @@
       },
       {
         "component": "text",
-        "name": "textcontent_cta",
+        "name": "textcontent_ctaText",
         "label": "CTA Label",
         "valueType": "string"
       },
       {
         "component": "aem-content",
-        "name": "textcontent_ctaText",
+        "name": "textcontent_cta",
         "value": "",
         "label": "CTA Reference",
         "valueType": "string",
