@@ -167,13 +167,13 @@
                 "template": {
                   "name": "Hero Banner",
                   "model": "herobanner",
+                  "image": "",
+                  "imageAlt": "Hero Banner Image",
+                  "imageone": "/",
                   "textcontent_headline": "Welcome to Hero Banner",
                   "textcontent_subHeadline": "Add your subtitle here",
-                  "ctacontent_ctaLabel": "Learn More",
-                  "ctacontent_ctaPath": "/",
-                  "image": "",
-                  "altText": "Hero Banner Image",
-                  "imageone": "/"
+                  "ctacontent_cta": "Learn More",
+                  "ctacontent_ctaPath": "/"
                 }
               }
             }
