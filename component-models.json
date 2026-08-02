@@ -213,16 +213,6 @@
         "valueType": "string"
       },
       {
-        "component": "aem-content",
-        "name": "imageone",
-        "value": "",
-        "label": "Content Picker",
-        "valueType": "string",
-        "validation": {
-          "rootPath": "/content"
-        }
-      },
-      {
         "component": "text",
         "name": "textcontent_headline",
         "label": "Headline",
@@ -236,13 +226,13 @@
       },
       {
         "component": "text",
-        "name": "ctacontent_cta",
+        "name": "textcontent_cta",
         "label": "CTA Label",
         "valueType": "string"
       },
       {
         "component": "aem-content",
-        "name": "ctacontent_ctaPath",
+        "name": "textcontent_ctaText",
         "value": "",
         "label": "CTA Reference",
         "valueType": "string",

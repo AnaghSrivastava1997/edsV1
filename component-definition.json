@@ -154,11 +154,10 @@
                   "model": "herobanner",
                   "image": "",
                   "imageAlt": "Hero Banner Image",
-                  "imageone": "/",
                   "textcontent_headline": "Welcome to Hero Banner",
                   "textcontent_subHeadline": "Add your subtitle here",
-                  "ctacontent_cta": "Learn More",
-                  "ctacontent_ctaPath": "/"
+                  "textcontent_cta": "Learn More",
+                  "textcontent_ctaText": "/"
                 }
               }
             }
