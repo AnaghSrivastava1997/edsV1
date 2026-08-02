@@ -169,8 +169,8 @@
                   "model": "herobanner",
                   "textcontent_headline": "Welcome to Hero Banner",
                   "textcontent_subHeadline": "Add your subtitle here",
-                  "textcontent_ctacontent_ctaLabel": "Learn More",
-                  "textcontent_ctacontent_ctaPath": "/",
+                  "ctacontent_ctaLabel": "Learn More",
+                  "ctacontent_ctaPath": "/",
                   "image": "",
                   "altText": "Hero Banner Image",
                   "imageone": "/"

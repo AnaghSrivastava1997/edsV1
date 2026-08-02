@@ -234,7 +234,7 @@
       },
       {
         "component": "text",
-        "name": "altText",
+        "name": "imageAlt",
         "label": "Image alt text",
         "valueType": "string"
       },
@@ -262,13 +262,13 @@
       },
       {
         "component": "text",
-        "name": "textcontent_ctacontent_ctaLabel",
+        "name": "ctacontent_cta",
         "label": "CTA Label",
         "valueType": "string"
       },
       {
         "component": "aem-content",
-        "name": "textcontent_ctacontent_ctaPath",
+        "name": "ctacontent_ctaPath",
         "value": "",
         "label": "CTA Reference",
         "valueType": "string",
