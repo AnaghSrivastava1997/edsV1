@@ -1,3 +1,78 @@
-.hello{
-    color: aliceblue;
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 3rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+}
+
+.hero-banner-image {
+  flex: 1;
+}
+
+.hero-banner-image picture,
+.hero-banner-image img {
+  display: block;
+  width: 100%;
+}
+
+.hero-banner-image img {
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.hero-banner-content {
+  flex: 1;
+}
+
+.hero-banner-content h1 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.hero-banner-content p {
+  margin: 0 0 2rem;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+.hero-banner-button {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.hero-banner-button:hover {
+  background: #1d4ed8;
+}
+
+@media (width <= 768px) {
+  .hero-banner {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .hero-banner-content h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-banner-button {
+    width: 100%;
+    text-align: center;
+  }
 }
