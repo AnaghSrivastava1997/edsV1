@@ -223,6 +223,62 @@
     ]
   },
   {
+    "id": "herobanner",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "altText",
+        "label": "Image alt text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "imageone",
+        "value": "",
+        "label": "Content Picker",
+        "valueType": "string",
+        "validation": {
+          "rootPath": "/content"
+        }
+      },
+      {
+        "component": "text",
+        "name": "textcontent_headline",
+        "label": "Headline",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "textcontent_subHeadline",
+        "label": "Sub Headline",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "textcontent_ctacontent_ctaLabel",
+        "label": "CTA Label",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "textcontent_ctacontent_ctaPath",
+        "value": "",
+        "label": "CTA Reference",
+        "valueType": "string",
+        "validation": {
+          "rootPath": "/content"
+        }
+      }
+    ]
+  },
+  {
     "id": "teaser",
     "fields": [
       {
